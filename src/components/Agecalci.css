@@ -1,0 +1,46 @@
+.Cont_middle
+{
+    display: flex;
+    justify-content: space-between;
+}
+body,html{
+    height: 100%;
+}
+ 
+input{
+    width: 200px;
+    height: 30px;
+    font-size: large;
+}
+
+.left
+{
+    width: 500px;
+    background-color:#EEF1F6; 
+
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+}
+.btn-1{
+    background: rgb(15, 5, 207);
+    background: linear-gradient(90deg, rgb(41, 34, 176) 0%, rgb(55, 55, 197) 35%, rgb(57, 186, 212) 100%);
+}
+.btn-2{
+    background: rgb(143, 57, 109);
+    background: linear-gradient(90deg, rgb(249, 164, 188) 0%, rgb(232, 101, 105) 35%, rgb(253, 77, 77) 100%);
+}
+.Cont_middle
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid ;
+    width: 50%;
+    margin: auto;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
